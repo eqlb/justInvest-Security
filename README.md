@@ -84,6 +84,7 @@ The system enforces the following rules for passwords:
 
 ## **Project Structure**
 
+```bash
 justInvest-security/
 ├── assignment.py        # All code combined
 ├── Problem1.py        # Problem 1
@@ -93,10 +94,11 @@ justInvest-security/
 ├── passwd.txt           # Password file (auto-generated during runtime)
 ├── test.py              # Test script
 ├── README.md            # Documentation
+```
 
 ## **Testing**
 
-### **Run the test suite to validate all functionality:**
+### **Run the test suite to validate all functionality**
 ## Tests Include:
 1. Signup: Verifies user registration.
 2. Login: Tests authentication and role-based access control.
